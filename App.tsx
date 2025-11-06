@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
-// FIX: Corrected import path casing to match component file name `Toast.tsx`.
-import { Toast } from './components/Toast';
+// FIX: Corrected import path casing to use lowercase 'toast.tsx' to resolve module resolution conflict.
+import { Toast } from './components/toast';
 import { ToastState, Page } from './types';
 import { PdfIcon } from './components/Icons';
 import HomePage from './pages/HomePage';
